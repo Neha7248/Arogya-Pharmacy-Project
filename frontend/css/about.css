@@ -1,0 +1,118 @@
+*
+{
+ box-sizing: border-box;
+ padding: 0%;
+ margin: 0%;
+}
+body{
+    background: rgb(3, 159, 159);
+    text-align: left;
+    margin-left: 3rem;
+    background-repeat: no-repeat;
+    
+}
+body h1{
+    color: rgb(249, 249, 250);
+    font-size: 50px;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    
+}
+header
+{
+  /* border: 2px solid black;  */
+  width:1000px;
+  height: 500px;
+  text-align: center;
+  margin-left: 12rem;
+  margin-top: 3rem;
+  background:rgb(18, 0, 0);
+   /* background-image: url(../image/flat-lay-medicine-bandage-arrangement_23-2149341576.webp);  */
+}
+div{
+    background-color: white;
+}
+div h1{
+    color:rgb(14, 0, 0);
+    font-size: 40px;
+}
+.a-p {
+    margin-top: .1rem;
+    padding-left: .1rem;
+    position: relative;
+  }
+  .medi {
+    position: absolute;
+    /* border-radius: 2%; */
+   
+  }
+  .medi img {
+    width: 1000px;
+    height: 450px;
+    /* border-radius: 2%; */
+   
+  }
+
+  .a-p .pic {
+    position: absolute;
+    background-color: black; 
+    width: 400px;
+    height: 450px;
+    opacity: 0.7;
+    border-radius: 1%;
+  }
+  .pic h3 {
+    text-align: center;
+    color: rgb(238, 246, 248);
+    margin-top: 9rem;
+  }
+  .pic form {
+    text-align: center;
+  }
+  .cards
+  {
+    width: 25%;
+    margin-top: 4rem;
+    border-radius: 5px;
+    margin: 40px;
+    
+    display:inline-block;
+    /* background: black; */
+  }
+  
+
+  
+  .image img{
+    width: 90%;
+    margin-top: 2rem;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(103, 176, 176);
+  }
+  .title{
+    text-align: center;
+    padding: 0px;
+     background-color: #180101; 
+
+  }
+  .title h1{
+    color:rgb(251, 243, 243);
+  }
+  .des{
+    text-align: center;
+    /* margin-top: 1rem; */
+    padding: 2px;
+    /* background-color: #fff; */
+    
+  }
+  .des p{
+    color: black;
+  }
+   .main{
+    background: rgb(3, 159, 159);
+    margin-top: 4rem;
+  } 
+  
+
+  

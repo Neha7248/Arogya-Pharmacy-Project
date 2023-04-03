@@ -1,0 +1,65 @@
+body
+{
+    background-color:rgb(92, 148, 251);
+    font-family: sans-serif;
+}
+.signup-box
+{
+    width:500px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+    border: 5px ;
+}
+.signup-box p{
+    color: blue;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+h4{
+   text-align: center; 
+}
+form{
+    width: 400px;
+    margin-left: 20px;
+}
+form label
+{
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+}
+input
+{
+    width: 100%;
+    padding:  7px;
+    border: none;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="button"]
+{
+    width: 310px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+form label p
+{
+text-align: center;
+} 
+p{
+    color: antiquewhite;
+    text-align: center;
+    
+}
+p a{
+    color:rgb(2, 5, 82)
+}

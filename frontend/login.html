@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./login.js"></script>
+    <!-- <link rel="stylesheet" href="./script.css"> -->
+</head>
+<body>
+    <h2>Login Page</h2>
+    <form>
+        <label>Emailid</label>
+        <input type="email" id="emailid"/><br/>
+        <label>Password</label>
+        <input type="password" id="password"/><br/>
+        <label>Type Of User</label>
+        <input type="radio" name="typeofuser" value="admin"/>Admin
+        <input type="radio" name="typeofuser" value="customer"/>Customer
+        <br/>
+        <input type="button" value="SignIn" onclick="signIn()"/>
+        <input type="reset" value="reset"/>
+        <a href="signUp.html">SignUp</a>
+        <span id="msg" style="color:red"></span>
+    </form>
+    
+</body>
+</html>

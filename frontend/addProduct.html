@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Files</title>
+    <script src="./js files/productdetail.js"></script>
+    <link rel="stylesheet" href="./css/web.css" />
+  </head>
+  <body>
+    <a href="http://127.0.0.1:5500/frontend/AdminHomePage.html"
+      ><input
+        type="button"
+        value="Back"
+       style="margin-left: 30px; background-color: rgb(228, 11, 189)" /></a
+    ><br />
+    <form style="text-align: center">
+      <h2>Add Product!</h2>
+      <div class="container">
+        <label>id</label>
+        <input type="number" id="_id" />
+        <label>pid</label>
+        <input type="number" id="pid" />
+        <label>prodName</label>
+        <input type="number" id="prodName" /><br />
+        <label>qty</label>
+        <input type="text" id="qty" /><br />
+        <label>amt</label>
+        <input type="text" id="amt" /><br />
+        <label> prod_Image</label>
+        <input type="url" id=" prod_Image" /><br />
+        <label> catname</label>
+        <input type="number" id=" catname" /><br />
+        <label>catId</label>
+        <input type="number" id="catId" /><br />
+        <label>treatFor</label>
+        <input type="text" id="treatFor" /><br />
+
+        <input
+          type="button"
+          value="addProduct"
+          onclick="addProduct()"
+        />
+      </div>
+    </form>
+    <span id="addProduct" style="color: rgb(130, 130, 237);"></span>
+    <span id="msg" style="color: red"> </span>
+  </body>
+</html>

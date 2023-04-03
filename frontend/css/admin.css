@@ -1,0 +1,60 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header
+{
+background-color: black;
+line-height: 80px;
+padding-left: 30px;
+
+
+}
+.logo img src{
+   margin-left: 16rem;
+}
+.logo img:hover{
+    background-color: blueviolet;
+}
+.admin{
+    color:white;
+}
+.admin:hover{
+    color: red;
+    font-size: 32px;
+}
+a, a:hover{
+    text-decoration: none;
+    color:aqua;
+    
+}
+.logout{
+    float:right;
+    padding-right: 30px;
+
+}
+ul{
+    background-color: #424a5b;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+ul li a{
+    color: white;
+    font-size: bold;
+}
+ul li a:hover{
+    color: aquamarine;
+}
+
+

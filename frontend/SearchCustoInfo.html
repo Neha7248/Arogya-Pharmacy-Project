@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Customer by Name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="./js files/searchcustomerdata.js"></script>
+    <link rel="stylesheet" href="./css/web.css">
+</head>
+
+<body style="background-color: rgb(253, 238, 219);">
+    <a href="http://127.0.0.1:5500/frontend/customerHome.html"><input type="button" value="Back"
+            style="margin-left: 40px; background-color: rgb(25, 213, 246); margin-top: 3rem;" /></a><br>
+    <form class="text-center">
+        <div>
+            <h3 class="mt-3" style="color: rgb(11, 77, 199);">Search Customer By first_name </h3>
+        </div>
+        <label>first_name</label>
+        <input type="text" placeholder="" id="first_name">
+        <input type="button" value="view data" onclick="findCustomer()"/>
+        <p id="viewCustomer"></p>
+
+    </form>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./login.js"></script>
+</head>
+<body>
+    <h2>Search Customer Details</h2>
+    <input type="search" id="fname" onkeyup="searchCustomer()"/>
+    <div>
+        <ol id="result">
+
+        </ol>
+    </div>
+</body>
+</html> -->

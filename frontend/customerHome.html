@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arogya Pharmacy Website</title>
+      <!-- Code for linking css file -->
+    <link rel="stylesheet" href="./css/product.css">
+    <!-- Code for linking css file -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Font Awesome cdn -->
+</head>
+<body>
+<!-- Header Section  -->
+<header class="header">
+     <a href="#" class="logo"><i class="fa fa-medkit" aria-hidden="true"></i>HealthCare</a>
+
+     <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products </a>
+        <a href="#categories">Categories</a>
+        
+
+     </nav>
+     <!-- cart,search,loginicons -->
+      <div class="icons">
+         
+        <a href=""><div class="fa fa-bars" id="menu-btn"></div></a>
+        <a href="/frontend/searchProductByName.html"><div class="fa fa-search" id="search-btn"></div></a>
+        <a href="http://127.0.0.1:5500/frontend/addProduct.html"><div class="fa fa-shopping-cart" id="cart-btn"></div></a>
+        <a href="./home.html"><div class="fa fa-users" id="login-btn"></div></a>
+        
+      </div> 
+        <!-- search icons -->
+        <!-- Search Bar -->
+      <form class="search-form">
+         <input type="search" id="search-box" placeholder="Search Here....">
+         <label for="search-box" class="fa fa-search"></label>
+      </form>
+                    <!-- Search Bar -->
+
+
+
+        <!-- shopping cart -->
+      <div class="shopping-cart">
+         <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="" alt="">
+            <div class="content">
+               <h3>syrup</h3>
+               <span class="price">20$</span>
+               <span class="quantity">Qty : 1</span>
+            </div>
+         </div> 
+         <!-- cart 1 -->
+         <!-- cart2 -->
+         <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="" alt="">
+            <div class="content">
+               <h3>tablets</h3>
+               <span class="price">20$</span>
+               <span class="quantity">Qty : 1</span>
+            </div>
+         </div>
+         <!-- cart 3 -->
+         <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="" alt="">
+            <div class="content">
+               <h3>capsule</h3>
+               <span class="price">20$</span>
+               <span class="quantity">Qty : 2</span>
+            </div>
+         </div>
+        <!-- cart 3 -->
+        <div class="total"> total : $18.97/-</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+      <!-- shopping cart -->
+
+</header>
+
+<!-- banner section -->
+    <section class="home" id="home">
+      <div class="content">
+         <h3>Best <span>Medicine </span>For You</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ratione reiciendis fugiat dolores, id impedit nemo, provident aliquam asperiores itaque accusamus earum voluptatibus quia quam ea veritatis.</p>
+         <a href="#" class="btn">shop now</a>
+      
+      
+      </div>
+
+    </section>
+
+    <!-- banner section close -->
+
+    <!-- feature section start -->
+    <section class="features"id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+         <div class="box">
+            <img src="./image/effective.jpg" alt="">
+            <h3>Effectiveness</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, atque!</p>
+
+            <a href="" class="btn">read more</a>
+
+         </div>
+
+         <div class="box">
+            <img src="./image/protection.png" alt="">
+            <h3>Safety</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, atque!</p>
+
+            <a href="" class="btn">read more</a>
+
+         </div>
+
+         <div class="box">
+            <img src="./image/side-effect.png" alt="">
+            <h3>Minor Side Effects</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, atque!</p>
+
+            <a href="" class="btn">read more</a>
+
+         </div>
+
+      </div>
+
+    </section>
+
+    <!-- our product section start-->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="swiper product-slider">
+
+
+         <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+               <img src="./image/glucose-meter.png" alt="">
+               <h1>Diabetes Care</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/showProduct.html" class="btn">ViewAllProduct</a>
+
+            </div>
+
+            <!-- 2nd -->
+            <div class="swiper-slide box">
+               <img src="./image/covid-19.png" alt="">
+               <h1>Covid Care</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/showProduct.html" class="btn">ViewAllProduct</a>
+
+            </div>
+
+
+            <!-- 3rd -->
+
+            <div class="swiper-slide box">
+               <img src="./image/cardiac-arrest.png" alt="">
+               <h1>Cardiac</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/showProduct.html" class="btn">ViewAllProduct</a>
+
+            </div>
+             <!-- 4th -->
+            <div class="swiper-slide box">
+               <img src="./image/stomach.png" alt="">
+               <h1>Stomach Care</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/showProduct.html" class="btn">ViewAllProduct</a>
+
+            </div>
+            <!-- 4end end -->
+
+
+
+
+
+            
+
+
+
+
+
+
+         </div>
+      </div>
+
+
+      <!-- next slider -->
+
+
+      <div class="swiper product-slider">
+
+
+         <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+               <img src="./image/protection-mask.png" alt="">
+               <h1>Covid protection</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/customerOrder.html" class="btn">add Order</a>
+
+            </div>
+
+            <!-- 2nd -->
+            <div class="swiper-slide box">
+               <img src="./image/cold & immunity.jpg" alt="">
+               <h1>Cold & Immunity</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/customerOrder.html" class="btn">add Order</a>
+
+            </div>
+
+
+            <!-- 3rd -->
+
+            <div class="swiper-slide box">
+               <img src="./image/pain-relief.png" alt="">
+               <h1>Pain Relief</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/customerOrder.html" class="btn">add Order</a>
+
+            </div>
+            <!-- 3 end -->
+
+            <!-- 4th start -->
+
+            <div class="swiper-slide box">
+               <img src="./image/livercare.png" alt="">
+               <h1>Liver Care</h1>
+               <div class="price">$100--200/</div>
+               <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+               </div>
+               <a href="http://127.0.0.1:5500/frontend/customerOrder.html" class="btn">add Order</a>
+
+            </div>
+
+            <!-- 4th end -->
+
+
+            
+
+
+            
+
+
+
+
+
+
+         </div>
+      </div>
+
+    </section>
+    <!-- product section end -->
+
+
+    <!-- product categories -->
+
+    <section class="categories" id="categories">
+      <h1 class="heading">Product <span>Categories</span></h1>
+
+      <div class="box-container">
+         <div class="box">
+            <img src="./image/drugs.png" alt="">
+            <h3>Tablets</h3>
+            <p>Upto 10% off</p>
+            <a href="http://127.0.0.1:5500/frontend/custoCategory.html" class="btn">order now</a>
+         </div>
+<!-- 2nd -->
+         <div class="box">
+            <img src="./image/syrup.png" alt="">
+            <h3>Syrup</h3>
+            <p>Upto 10% off</p>
+            <a href="http://127.0.0.1:5500/frontend/custoCategory.html" class="btn">order now</a>
+         </div>
+<!-- 3rd -->
+         <div class="box">
+            <img src="./image/medicine.png" alt="">
+            <h3>Capsule</h3>
+            <p>Upto 10% off</p>
+            <a href="http://127.0.0.1:5500/frontend/custoCategory.html" class="btn">order now</a>
+         </div>
+<!-- 4th -->
+         <div class="box">
+            <img src="./image/all disease.jpg" alt="">
+            <h3> All Medicine</h3>
+            <p>Upto 10% off</p>
+            <a href="http://127.0.0.1:5500/frontend/custoCategory.html" class="btn">order now</a>
+         </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="./js files/p.js"></script> 
+   <script src="./js files/custoInfo.js"></script>
+   <script src="./js files/dcategory.js"></script>
+   <script src="./js files/productdetail.js"></script>
+   <script src="./js files/Order.js"></script>
+   <script src="./js files/login.js"></script>
+</body>
+</html>

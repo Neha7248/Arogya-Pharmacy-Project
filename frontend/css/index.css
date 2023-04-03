@@ -1,0 +1,236 @@
+* {
+  box-sizing: 0px;
+  margin: 0px;
+}
+ h1{
+    border: 2px solid black;
+   text-align: center;
+   font-size: 48px;
+   margin-top: 2rem;
+} 
+ body {
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-image: url("../image/flat-lay-medicine-bandage-arrangement_23-2149341576.webp");
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  /* z-index: -1; */
+}
+.nav {
+  padding-left: 2rem;
+  overflow: hidden;
+  /* border: 2px solid black; */
+  /* background-color: black; */
+  background-color: rgba(1, 7, 11, 0.976);
+  opacity: 0.8;
+  font-family: "Helvetica", "Arial", sans-serif;
+  /* color: #fc0290; */
+  font-size: 9px;
+}
+.nav a {
+  color: #f2f6fa;
+  font-size: 20px;
+  float: left;
+  padding: 20px 20px;
+  text-align: center;
+  /* border: 1px solid black; */
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a:hover {
+  color: rgb(44, 247, 17);
+}
+.nav img {
+  border-radius: 50%;
+  width: 60px;
+}
+.Login a {
+  margin-left: 30rem;
+  font-size: bold;
+}
+
+.header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+
+  color: #031f66;
+  margin-top: 3rem;
+}
+
+/* .hc img {
+  float: left;
+  margin-top: 3rem;
+}
+.health {
+  float: right;
+}
+.health h2 {
+  float: center;
+  text-align: center;
+  margin-bottom: 12rem;
+} */
+
+/* .container-fluid1 {
+  border: 4px soild blue;
+  margin-top: 40rem;
+} */
+/* .container-fluid1 h1 {
+  text-align: center;
+  font-size: 37px;
+} */
+/* .custom {
+  position: relative;
+}
+.text h1 {
+  position: absolute;
+  margin-top: -6rem;
+}
+.custom img {
+  width: 700px;
+  height: 400px;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.custom p {
+  position: absolute;
+  top: 15%;
+  margin-left: 50rem;
+  margin-right: 4rem;
+  margin-top: 15rem;
+} */
+.container-fluid {
+  margin-top: 1rem;
+  /* border: 2px solid palevioletred; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14rem;
+  position: relative;
+}
+.m-5 p {
+  background-color: rgb(13, 169, 189);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #f2f6fa;
+  border-radius: 8%;
+}
+ .col {
+  position: absolute;
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+  background-image: url("https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?w=740&t=st=1679163554~exp=1679164154~hmac=236393ca19f77e3843c1fb43d52a0a8dcc1645c259ba0294238b953af0b8781f");
+} 
+.col h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  padding-left: 5rem;
+  column-count: 3;
+  column-gap: 30px;
+  margin-top: 9rem;
+  border-radius: 1%;
+}
+.cards:hover {
+  background-color: rgb(8, 80, 104);
+}
+.card {
+  padding-left: 7rem;
+  border-radius: 3%;
+  width: 400px;
+}
+
+.heading {
+  padding-right: 3rem;
+}
+.card img {
+  margin-top: 3rem;
+}
+
+.heading h1 {
+  font-size: 25px;
+  margin-top: 4rem;
+  text-align: left;
+}
+.heading p {
+  text-align: left;
+}
+.About{
+    padding-bottom: 4rem;
+}
+
+.About h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+  background-color: powderblue;
+}
+
+.a-p {
+  /* margin-top: 42rem; */
+  padding-left: 3rem;
+  position: relative;
+}
+.medi {
+  position: absolute;
+ 
+}
+.medi img {
+  width: 1250px;
+  height: 400px;
+  border-radius: 2%;
+ 
+}
+.a-p .pic {
+  position: absolute;
+  background-color: black;
+  width: 400px;
+  height: 400px;
+  opacity: 0.9;
+  border-radius: 1%;
+}
+.pic h3 {
+  text-align: center;
+  color: rgb(238, 246, 248);
+  margin-top: 9rem;
+}
+.pic form {
+  text-align: center;
+}
+
+
+/* section  h1{
+     
+     text-align:center;
+     font-size: 45px;
+
+ }
+ section  h2{
+    text-align:center;
+    margin-top: 5rem;
+    margin-left: 35rem;
+    font-size: 35px;
+ }
+  .pharma img{
+    margin-top:-1rem;
+    float: left;
+    
+ }
+ section p{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 35rem;
+    margin-right: 4rem;
+ }
+  */
+
+/* .pharma .pera p{
+    text-align: center;
+    margin-bottom:10rem;
+    margin-left: 42rem;
+    margin-right: 8rem;
+    font-size: 25px;
+ } */

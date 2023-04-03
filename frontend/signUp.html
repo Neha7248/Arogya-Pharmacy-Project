@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP Page</title>
+    <link rel="stylesheet" href="./css/style1.css">
+    <!-- <link rel="stylesheet" href="./css/script.css"> -->
+    
+    <script src="./js files/login.js"></script>
+</head>
+<body>
+    <!-- commented -->
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It will take hardly a minute to sign up</h4>
+
+        <form>
+            <label>First Name</label>
+            <input type="text" id="First_name">
+
+            <label>Last Name</label>
+            <input type="text"  id="last_name">
+
+            <label>Email</label>
+            <input type="text"  id="emailId">
+
+            <label>Password</label>
+            <input type="password"  id="password">
+
+            <label>Confirm Password</label>
+            <input type="password"  id="password">
+
+            <label>Contact</label>
+            <input type="tel"  id="contact">
+
+            <label>Type of User</label>
+            <input type="radio" name="type_of_user" value="admin" />Admin
+            <input type="radio" name="type_of_user" value="customer" />Customer<br />
+
+            <input type="button" value="Sign Up" onclick="signUp()"/>
+            <a href="./signUp.html"><input type="reset" value="reset"  style="width:fit-content"/><br/></a>
+        </form>
+        <p>By clicking the Sign Up button, you agree to our<br>
+        <a href="#">Terms and Conditions</a>and <a href="#">privacy policy</a></p>
+        <span id="msg" style="color:rgb(250, 17, 17)"></span>
+    </div>
+
+    <p>Already have an account? <a href="signIn.html">Login here</a></p>
+
+    <!-- commented -->
+
+
+
+    <!-- <div>
+        <form>
+            <h2>SignUp Page!</h2>
+            
+            <label>First Name</label>
+            <input type="text" id="First_Name"/><br/>
+            <label>Last Name</label>
+            <input type="text" id="last_name" /><br />
+            <label>Email Id</label>
+            <input type="email" id="emailId"/>
+            <label>Password</label>
+            <input type="password" id="password"/><br />
+            <label>Address</label>
+            <input type="text" id="address"/>
+            <label>Contact</label>
+            <input type="tel" id="contact"><br />
+            <label>Type of User</label>
+            <input type="radio" name="type_of_user" value="admin" />Admin
+            <input type="radio" name="type_of_user" value="customer" />Customer<br />
+            <input type="button" value="SignUp" onclick="signUpData()"/>
+            <input type="reset" value="reset" /><br/>
+            <p>Already have an account?<a href="signIn.html">Login</a></p>
+        </form>
+        <span id="msg" style="color:rgb(59, 59, 94)"></span>
+    </div> -->
+</body>
+</html>
